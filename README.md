@@ -1,5 +1,10 @@
 # GROMACS to LAMMPS 转换工具
 
+[![Python](https://img.shields.io/badge/Python-3.7%2B-blue.svg)](https://python.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Force Fields](https://img.shields.io/badge/Force%20Fields-5-orange.svg)](force_fields/)
+[![Documentation](https://img.shields.io/badge/docs-Chinese-green.svg)](使用指南.md)
+
 这是一个通过moltemplate将GROMACS工程文件转换为LAMMPS工程文件的工具。
 
 ## 功能特性
@@ -185,7 +190,15 @@ python main.py -t system.top -c system.gro --verbose
 
 ## 许可证
 
-本项目使用MIT许可证。
+本项目采用 MIT 许可证。详细内容请查看 [LICENSE](LICENSE) 文件。
+
+### MIT许可证概要
+
+- ✅ **商业使用** - 可用于商业项目
+- ✅ **修改** - 可修改源代码
+- ✅ **分发** - 可重新分发
+- ✅ **私人使用** - 可私人使用
+- ✅ **许可和版权声明** - 必须包含许可证和版权声明
 
 ## 更新日志
 
