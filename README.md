@@ -53,7 +53,7 @@ python main.py -t system.top -c system.gro
 ```
 
 ### 使用标准力场
-
+这里的力场只要有力场文件内部有对键角的配置内容就可以这样用，不一定是现有的力场。
 ```bash
 # 使用GAFF2力场
 python main.py -t system.top -c system.gro -f gaff2
