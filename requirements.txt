@@ -1,0 +1,20 @@
+# GROMACS to LAMMPS 转换工具依赖
+
+# 核心依赖
+numpy>=1.19.0
+pathlib
+typing_extensions>=3.7.4
+
+# 可选依赖（推荐安装）
+psutil>=5.7.0           # 用于系统信息显示
+
+# moltemplate（需要单独安装）
+# 安装方法：
+# conda install -c conda-forge moltemplate
+# 或
+# pip install moltemplate
+
+# 开发依赖（可选）
+pytest>=6.0.0           # 用于测试
+black>=21.0.0           # 代码格式化
+flake8>=3.8.0           # 代码检查 
