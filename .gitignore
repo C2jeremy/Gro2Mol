@@ -108,4 +108,24 @@ Thumbs.db
 
 # 测试结果文件
 test_output*/
-results*/ 
+results*/
+
+# 知识产权申请文档 - 敏感文件，不同步到git
+# Patent and Copyright application documents - Sensitive files, do not sync to git
+中国发明专利.md
+软件著作权申请材料.md
+软著申请流程指南.md
+prepare_copyright_code.py
+软著申请代码/
+专利申请*/
+软著申请*/
+知识产权*/
+copyright*/
+patent*/
+
+# 其他可能的知识产权相关文件
+*专利*.md
+*软著*.md
+*著作权*.md
+*版权*.md
+*知识产权*.md 
